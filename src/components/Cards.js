@@ -14,7 +14,7 @@ function Cards() {
               path='/programs'
             />
             <CardItem
-              src={process.env.PUBLIC_URL + "/images/justinFeed.JPG"}
+              src={process.env.PUBLIC_URL + "/images/justinfeed.JPG"}
               text='Our Team'
               path='/team'
             />            
@@ -26,7 +26,7 @@ function Cards() {
               path='/facilities'
             />
             <CardItem
-              src={process.env.PUBLIC_URL + "/images/keesh.JPG"}
+              src={process.env.PUBLIC_URL + "/images/maxbackhand.JPG"}
               text='Our Mission'
               path='/our-mission'
             />
