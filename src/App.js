@@ -15,12 +15,12 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/programs' component={Programs} />
-          <Route path='/team' component={Team} />
-          <Route path='/contact-us' component={Contact} />
-          <Route path='/our-mission' component={Mission} />
-          <Route path='/facilities' component={Facilities} />
+          <Route path='/GGTennis/' exact component={Home} />
+          <Route path='/GGTennis/programs' component={Programs} />
+          <Route path='/GGTennis/team' component={Team} />
+          <Route path='/GGTennis/contact-us' component={Contact} />
+          <Route path='/GGTennis/our-mission' component={Mission} />
+          <Route path='/GGTennis/facilities' component={Facilities} />
 
         </Switch> 
         <Footer/>

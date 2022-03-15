@@ -6,7 +6,7 @@ export default function Product() {
       <h1 id="programs-title">Our Programs</h1>
       <div className="containerPrograms">
       <div className="wrapperPrograms">
-        <img src='images/maxbackhand.JPG' alt='Max Loia - GG Tennis Academy' class="programsImage"></img>
+        <img src={process.env.PUBLIC_URL + "/images/maxbackhand.JPG"} alt='Max Loia - GG Tennis Academy' class="programsImage"></img>
         <div className="text-programs">
           <h2 class="programs-header">Junior Programs</h2>
           <p>We offer programs to all ages assuring each student gets top notch coaching and development, while also having the most fun doing it.
@@ -23,7 +23,7 @@ export default function Product() {
         </div>  
       </div>
       <div className="wrapperPrograms">
-        <img src='images/sandeepserve.JPG' alt='Sandeep Alapati - GG Tennis Academy' class="programsImage"></img>
+        <img src={process.env.PUBLIC_URL + "/images/sandeepserve.JPG"} alt='Sandeep Alapati - GG Tennis Academy' class="programsImage"></img>
         <div className="text-programs">
           <h2 class="programs-header">Advanced Development</h2>
           <p>These programs are for the tournament and top level varsity players who have big aspirations for their games. 
@@ -47,7 +47,7 @@ export default function Product() {
         </div>
       </div>
       <div className="wrapperPrograms">
-        <img src='images/nickforehand.JPG' alt='Nick Lawliss - GG Tennis Academy' class="programsImage"></img>
+        <img src={process.env.PUBLIC_URL + "/images/nickforehand.JPG"} alt='Nick Lawliss - GG Tennis Academy' class="programsImage"></img>
         <div className="text-programs">
           <h2 class="programs-header">Summer Programs 2021</h2>
           <p>We will be offering several different options for summer programs this year, 

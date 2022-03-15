@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/GGTennis/static/css/main.ab4d0fe6.chunk.css",
-    "main.js": "/GGTennis/static/js/main.d2b781d9.chunk.js",
-    "main.js.map": "/GGTennis/static/js/main.d2b781d9.chunk.js.map",
+    "main.css": "/GGTennis/static/css/main.cc833f73.chunk.css",
+    "main.js": "/GGTennis/static/js/main.8acc66a7.chunk.js",
+    "main.js.map": "/GGTennis/static/js/main.8acc66a7.chunk.js.map",
     "runtime-main.js": "/GGTennis/static/js/runtime-main.378c39d7.js",
     "runtime-main.js.map": "/GGTennis/static/js/runtime-main.378c39d7.js.map",
     "static/css/2.6b560088.chunk.css": "/GGTennis/static/css/2.6b560088.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.6afe18fd.chunk.js.map": "/GGTennis/static/js/2.6afe18fd.chunk.js.map",
     "index.html": "/GGTennis/index.html",
     "static/css/2.6b560088.chunk.css.map": "/GGTennis/static/css/2.6b560088.chunk.css.map",
-    "static/css/main.ab4d0fe6.chunk.css.map": "/GGTennis/static/css/main.ab4d0fe6.chunk.css.map",
+    "static/css/main.cc833f73.chunk.css.map": "/GGTennis/static/css/main.cc833f73.chunk.css.map",
     "static/js/2.6afe18fd.chunk.js.LICENSE.txt": "/GGTennis/static/js/2.6afe18fd.chunk.js.LICENSE.txt",
     "static/media/logowhitetext.69cddadd.png": "/GGTennis/static/media/logowhitetext.69cddadd.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.378c39d7.js",
     "static/css/2.6b560088.chunk.css",
     "static/js/2.6afe18fd.chunk.js",
-    "static/css/main.ab4d0fe6.chunk.css",
-    "static/js/main.d2b781d9.chunk.js"
+    "static/css/main.cc833f73.chunk.css",
+    "static/js/main.8acc66a7.chunk.js"
   ]
 }

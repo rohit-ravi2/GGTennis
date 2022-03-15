@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rohit-ravi2.github.io/GGTennis",
+  "homepage": "https://rohit-ravi2.github.io/GGTennis/",
   "name": "ggwebsite",
   "version": "0.1.0",
   "private": true,
@@ -18,11 +18,13 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "save-dev": "^0.0.1-security",
+    "web-vitals": "^1.1.2",
+    "webpack": "^4.44.2"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

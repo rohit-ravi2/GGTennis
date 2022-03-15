@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import css from './Navbar.css'
 import { Link, useLocation } from 'react-router-dom';
 
+
 class Navbar extends Component {
   state = {
     isOpen: false,
@@ -35,18 +36,18 @@ class Navbar extends Component {
 
         <img src="images/threelines.png" id="threelines" />
 
-        <a href="index.html"><img src="images/logo.png" id="ggtext" /></a>
+        <a href="index.html"><img src={process.env.PUBLIC_URL + "/images/logo.png"} id="ggtext" /></a>
         <nav>
           <ul class="left">
-            <li><Link to=''>Home</Link></li>
-            <li><img src="images/whiteline.png" class="line" /></li>
+            <li><Link to='/GGTennis'>Home</Link></li>
+            <li><img src={process.env.PUBLIC_URL + "/images/whiteline.png"} class ="line"></img></li>
             <li><Link to='/Programs'>Programs</Link></li>
-            <li><img src="images/whiteline.png" class="line" /></li>
+            <li><img src={process.env.PUBLIC_URL + "/images/whiteline.png"} class ="line"></img></li>
           </ul>
           <ul class="right">
-            <li><img src="images/whiteline.png" class="line" /></li>
+          <li><img src={process.env.PUBLIC_URL + "/images/whiteline.png"} class ="line"></img></li>
             <li><Link to='/Contact-Us'>Contact Us</Link></li>
-            <li><img src="images/whiteline.png" class="line" /></li>
+            <li><img src={process.env.PUBLIC_URL + "/images/whiteline.png"} class ="line"></img></li>
             <li><a href="reservation.html">Court Reservation</a></li>
           </ul>
 
